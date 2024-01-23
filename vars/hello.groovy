@@ -16,7 +16,7 @@ def call() {
 
 
     script {
-        def hello = new main.groovy.com.example.hello.HelloWorld()
+        def hello = new com.example.hello.HelloWorld()
         String greet = hello.sayHello()
         println(greet)
     }
