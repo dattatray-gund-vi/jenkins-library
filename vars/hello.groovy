@@ -1,7 +1,7 @@
 #!usr/bin/env groovy
 import com.example.mjsl.Hello
 
-@Library('main.java.com.example.hello.HelloWorld')
+//@Library('main.java.com.example.hello.HelloWorld')
 
 //@Grab('com.jenkins-cd:groovy-cps:1.27')
 
