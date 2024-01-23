@@ -1,4 +1,4 @@
-package example.mjsl;
+package com.example.mjsl;
 
 public class Hello {
     String sayHello() {
