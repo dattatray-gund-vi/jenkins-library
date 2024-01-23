@@ -1,8 +1,7 @@
 #!usr/bin/env groovy
 import com.example.mjsl.Hello
-import org.graalvm.nativeimage.c.function.CLibrary
 
-@CLibrary('main.java.com.example.hello.HelloWorld')
+@Library('main.java.com.example.hello.HelloWorld')
 
 //@Grab('com.jenkins-cd:groovy-cps:1.27')
 
