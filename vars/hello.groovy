@@ -1,10 +1,8 @@
 #!usr/bin/env groovy
 
-import example.mjsl.Hello
-
-def hello = new Hello()
+//@Grab('com.jenkins-cd:groovy-cps:1.27')
 
 def call() {
     println("Hello, World!")
-    println(hello.sayHello())
+  //  println(hello.sayHello())
 }
