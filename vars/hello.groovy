@@ -6,10 +6,12 @@ import com.example.mjsl.Hello
 def call() {
     println("Hello, World!")
 
-    Hello hello = new Hello()
-    String greet = hello.sayHello()
+    script {
+        Hello hello = new Hello()
+        String greet = hello.sayHello()
 
-    println(greet)
+        println(greet)
+    }
 
   //  println(hello.sayHello())
 }
