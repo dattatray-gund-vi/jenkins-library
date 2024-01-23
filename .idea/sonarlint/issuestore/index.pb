@@ -15,3 +15,5 @@ O
 src/com/example/mjsl/Hello.java,a/a/aaaedd288ee6cdceef60ff8ea74b314eb8477fbd
 Q
 !src/com/example/mjsl/Hello.groovy,c/e/cef3b89580bc8494eb6350f4bf896944b0c28d21
+c
+3src/main/groovy/com/example/hello/HelloWorld.groovy,3/f/3f1a2ba7635d492995430acdc614ec5d407833bc

@@ -11,7 +11,13 @@ def call() {
 
         Hello hello = new Hello()
         String greet = hello.sayHello()
+        println(greet)
+    }
 
+
+    script {
+        def hello = new main.groovy.com.example.hello.HelloWorld()
+        String greet = hello.sayHello()
         println(greet)
     }
 
