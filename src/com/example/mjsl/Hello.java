@@ -1,7 +1,7 @@
 package com.example.mjsl;
 
-class Hello {
-    String sayHello() {
+public class Hello {
+    public String sayHello() {
         return "Hello";
     }
 }
