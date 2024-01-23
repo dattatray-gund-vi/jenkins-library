@@ -1,6 +1,6 @@
 #!usr/bin/env groovy
-
 import com.example.mjsl.Hello
+
 
 //@Grab('com.jenkins-cd:groovy-cps:1.27')
 
@@ -8,6 +8,7 @@ def call() {
     println("Hello, World!")
 
     script {
+
         Hello hello = new Hello()
         String greet = hello.sayHello()
 
