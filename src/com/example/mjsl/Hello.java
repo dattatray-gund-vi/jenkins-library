@@ -1,6 +1,6 @@
 package com.example.mjsl;
 
-public class Hello {
+class Hello {
     String sayHello() {
         return "Hello";
     }
