@@ -22,12 +22,12 @@ def call() {
         println(greet)
     }
 
-    script {
-
-        def obj = library('jenkins-library').main.java.com.example.jhello.HelloMyWorld()
-        String greet = obj.sayHello()
-        println(greet)
-    }
+//    script {
+//
+//        def obj = library('jenkins-library').main.java.com.example.jhello.HelloMyWorld()
+//        String greet = obj.sayHello()
+//        println(greet)
+//    }
 
   //  println(hello.sayHello())
 }
